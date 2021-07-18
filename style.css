@@ -1,0 +1,75 @@
+body {
+  background: #222831;
+}
+
+.part-tabla {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.part-tabla2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centro2{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.justo{
+    width: 10%;
+}
+
+.maps {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+td img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+th img{
+    width: 100%;
+    display: block;
+    margin:0%
+}
+td{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    td img{
+        width: 100%;
+    }
+    th img{
+        width: 80%;
+    }
+    .justo{
+        width: 20%;
+    }
+    .part-tabla2 {
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+      .fs-3 {
+        font-size: 1rem!important;
+    }
+    .maps {
+        width: 95%;
+    }
+  }

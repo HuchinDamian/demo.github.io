@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pro Flag</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="text-white">
+    <nav class="navbar navbar-dark bg-dark text-white navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/ball-solid-240.png"
+            alt="logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Pro Flag
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="bx bxs-home"></i> Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bx bxs-flag-alt"></i> Partidos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bx bx-table" undefined></i> Tabla Dominical
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Varonil</a></li>
+                <li><a class="dropdown-item" href="#">Femenil</a></li>
+                <li><a class="dropdown-item" href="#">Mixto</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bx bxs-ball"></i> Equipos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bx bx-walk"></i> MVP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bx bxs-map"></i> Sedes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bx bx-check"></i> Reglas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="bx bxl-facebook-square"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i class="bx bxl-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i class="bx bxl-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="text-center m-4">Partidos</h1>
+
+    <h2 class="m-4">Hoy</h2>
+    <div class="part-tabla">
+      <table class="table text-white align-middle">
+        <thead>
+          <tr>
+            <th class="fs-2" scope="col">Hora</th>
+            <th class="text-end fs-2" scope="col">V</th>
+            <th class="text-start fs-2" scope="col">S</th>
+            <th class="fs-2" scope="col">Campo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="fs-3" scope="row">12:00</th>
+            <td><img class="img-fluid" src="/images/Teams/1.png" alt="" /></td>
+            <td><img class="img-fluid" src="/images/Teams/2.png" alt="" /></td>
+            <td class="fs-3"><a class="link-light" href="">#1</a></td>
+          </tr>
+          <tr>
+            <th class="fs-3" scope="row">15:30</th>
+            <td><img class="img-fluid" src="/images/Teams/3.png" alt="" /></td>
+            <td><img class="img-fluid" src="/images/Teams/4.png" alt="" /></td>
+            <td class="fs-3"><a class="link-light" href="">#2</a></td>
+          </tr>
+          <tr>
+            <th class="fs-3" scope="row">17:45</th>
+            <td><img class="img-fluid" src="/images/Teams/5.png" alt="" /></td>
+            <td><img class="img-fluid" src="/images/Teams/6.png" alt="" /></td>
+            <td class="fs-3"><a class="link-light" href="">#1</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <button type="button" class="btn btn-outline-primary centro">
+      Ver proximos partidos
+    </button>
+
+    <h2 class="text-center m-5">Tabla Dominical</h2>
+
+    <ul class="nav justify-content-center m-4">
+      <li class="nav-item ms-4 me-4">
+        <button type="button" class="btn btn-outline-primary">Varonil</button>
+      </li>
+      <li class="nav-item ms-4 me-4">
+        <button type="button" class="btn btn-outline-primary">Femenil</button>
+      </li>
+      <li class="nav-item ms-4 me-4">
+        <button type="button" class="btn btn-outline-primary">Mixto</button>
+      </li>
+    </ul>
+
+    <div class="part-tabla2">
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr class="text-center">
+            <th scope="col">Equipo</th>
+            <th scope="col">JJ</th>
+            <th scope="col">JG</th>
+            <th scope="col">JP</th>
+            <th scope="col">PF</th>
+            <th scope="col">PC</th>
+            <th scope="col">AVG</th>
+            <th scope="col">PTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="justo" scope="row">
+              <img src="/images/Teams/1.png" alt="Team1" />
+            </th>
+            <td class="fs-3">5</td>
+            <td class="fs-3">5</td>
+            <td class="fs-3">0</td>
+            <td class="fs-3">146</td>
+            <td class="fs-3">6</td>
+            <td class="fs-3">2.319</td>
+            <td class="fs-3">15</td>
+          </tr>
+          <tr>
+            <th class="justo" scope="row">
+              <img src="/images/Teams/2.png" alt="Team1" />
+            </th>
+            <td class="fs-3">5</td>
+            <td class="fs-3">5</td>
+            <td class="fs-3">0</td>
+            <td class="fs-3">146</td>
+            <td class="fs-3">6</td>
+            <td class="fs-3">2.319</td>
+            <td class="fs-3">15</td>
+          </tr>
+          <tr>
+            <th class="justo" scope="row">
+              <img src="/images/Teams/3.png" alt="Team1" />
+            </th>
+            <td class="fs-3">5</td>
+            <td class="fs-3">5</td>
+            <td class="fs-3">0</td>
+            <td class="fs-3">146</td>
+            <td class="fs-3">6</td>
+            <td class="fs-3">2.319</td>
+            <td class="fs-3">15</td>
+          </tr>
+          <tr>
+            <th class="justo" scope="row">
+              <img src="/images/Teams/4.png" alt="Team1" />
+            </th>
+            <td class="fs-3">5</td>
+            <td class="fs-3">5</td>
+            <td class="fs-3">0</td>
+            <td class="fs-3">146</td>
+            <td class="fs-3">6</td>
+            <td class="fs-3">2.319</td>
+            <td class="fs-3">15</td>
+          </tr>
+          <tr>
+            <th class="justo" scope="row">
+              <img src="/images/Teams/5.png" alt="Team1" />
+            </th>
+            <td class="fs-3">5</td>
+            <td class="fs-3">5</td>
+            <td class="fs-3">0</td>
+            <td class="fs-3">146</td>
+            <td class="fs-3">6</td>
+            <td class="fs-3">2.319</td>
+            <td class="fs-3">15</td>
+          </tr>
+          <tr>
+            <th class="justo" scope="row">
+              <img src="/images/Teams/6.png" alt="Team1" />
+            </th>
+            <td class="fs-3">5</td>
+            <td class="fs-3">5</td>
+            <td class="fs-3">0</td>
+            <td class="fs-3">146</td>
+            <td class="fs-3">6</td>
+            <td class="fs-3">2.319</td>
+            <td class="fs-3">15</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-center m-5">Nuestros campos</h2>
+
+    <div class="centro">
+      <h3 class="text-center">Campo 1</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7522.800034577918!2d-99.2498410749356!3d19.48141844742638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20304732a2f27%3A0xab4e3d5fa3f2e0e6!2sTIP%20Latam!5e0!3m2!1ses-419!2smx!4v1626576054839!5m2!1ses-419!2smx"
+        class="maps"
+      ></iframe>
+    </div>
+    <div class="centro">
+      <h3 class="text-center">Campo 2</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15484.731947431224!2d-99.2048484565178!3d19.49958120530205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2029571addfd5%3A0xe7c319f6271591e6!2sParque%20Tezoz%C3%B3moc!5e0!3m2!1ses-419!2smx!4v1626578194272!5m2!1ses-419!2smx"
+        class="maps"
+      ></iframe>
+    </div>
+
+    <div class="centro">
+      <h3 class="text-center">Campo 3</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45753.11306958917!2d-99.08257658242233!3d19.440766758906378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb957c06e783%3A0xb3989b273ddc1f97!2sBosque%20de%20San%20Juan%20de%20Arag%C3%B3n!5e0!3m2!1ses-419!2smx!4v1626578291490!5m2!1ses-419!2smx"
+        class="maps"
+      ></iframe>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
